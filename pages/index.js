@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as qna from "@tensorflow-models/qna";
 import * as tf from "@tensorflow/tfjs";
-
+import Head from "next/head";
 const App = () => {
   const [answer, setAnswer] = useState();
   const [model, setModel] = useState(null);
@@ -37,6 +37,9 @@ const App = () => {
   };
   return (
     <div className="App">
+      <Head>
+        <title>Tensorflow with React</title>
+      </Head>
       {model == null ? (
         <div>
           <div>Model Loading</div>
