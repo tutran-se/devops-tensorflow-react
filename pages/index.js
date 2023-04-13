@@ -75,7 +75,7 @@ const App = () => {
                   className="block w-full p-3 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                 ></textarea>
               </div>
-              <div className="text-left">
+              <div className="text-right">
                 <button
                   type="submit"
                   className="p-3 rounded bg-indigo-600 text-white"
