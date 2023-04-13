@@ -20,6 +20,10 @@ const App = () => {
       e.preventDefault();
       const passage = e.target.passage.value;
       const question = e.target.question.value;
+      if (!passage || !question) {
+        alert("Please enter passage and question");
+        return;
+      }
       if (model == null) {
         console.log("Model is null");
         return;
