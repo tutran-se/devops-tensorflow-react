@@ -48,7 +48,7 @@ const App = () => {
         <div className="p-4 mx-auto w-full max-w-5xl">
           <div>
             <p className="border border-indigo-400 p-2 mb-3 inline-block rounded-lg">
-              DevOps - Final Projecccc - GROUP 08
+              DevOps - Final Project - GROUP 08
             </p>
             <h1 className="text-2xl font-bold">Tensorflow with React</h1>
             <form onSubmit={onFormSubmit}>
